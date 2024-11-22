@@ -19,7 +19,7 @@ const App = () => {
             <Route path="/mark-attendance" element={<MarkAttendance />} />
             <Route path="/view-attendance" element={<ViewAttendance />} />
           </Routes>
-        </div>
+        </div>ini
       </Router>
     </Provider>
   );
