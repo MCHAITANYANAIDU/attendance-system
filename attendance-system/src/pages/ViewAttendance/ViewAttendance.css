@@ -1,0 +1,58 @@
+/* ViewAttendance.css */
+
+.view-attendance {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 100vh; /* Ensures full-page height */
+  }
+  
+  .view-attendance h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .attendance-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attendance-table th,
+  .attendance-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .attendance-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .attendance-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .status-present {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-absent {
+    color: red;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .attendance-table {
+      font-size: 0.9rem;
+    }
+  }
+  
